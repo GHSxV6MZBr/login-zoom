@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - Zoom</title>
+    <link rel="stylesheet" href="login-zoom.css">
+</head>
+<body>
+    <form class="form" action="get">
+        <div class="form__welcome-wrapper">
+            <h1 class="header-one header-one--margin">Sign In</h1>
+            <h3 class="header-three">Welcome back!</h3>
+            <h4 class="header-four header-four--margin">New to Zoom?
+                <a class="link--welcome" href="">Sign Up Free</a>
+            </h4>
+            <span class="form__divider"></span>
+        </div>
+        <div class="form__signin-wrapper">
+            <div class="form__signin-margin">
+                <fieldset class="form__fieldset form__fieldset--flex form__fieldset--margin">
+                    <label class="form__label" for="email">Email Address</label>
+                    <input class="form__input form__input--margin" type="email" id="email" placeholder="Email Address" autofocus>
+                </fieldset>
+                <fieldset class="form__fieldset form__fieldset--flex form__fieldset--margin form__fieldset--relative">
+                    <label class="form__label" for="password">Password</label>
+                    <input class="form__input form__input--margin" type="password" id="password" placeholder="Password">
+                    <a class="link form__link--light form__fieldset-link" href="">Forgot password?</a>
+                </fieldset>
+                <p class="text">
+                    By signing in, I agree to the
+                    <a class="link form__link--light" href="">Zoom's Privacy Statement</a>
+                    and
+                    <a class="link form__link--light" href="">Terms of Service</a>
+                    .
+                </p>
+                <button class="button button--margin" type="button">Sign In</button>
+                <input type="checkbox" checked>
+                <h4 class="header-four form__header-four--inline">Stay signed in</h4>
+                <span class="form__divider-signin form__divider-signin--margin text form__text--large">Or sign in with</span>
+                <div class="form__imaged-link-wrapper">
+                    <a class="form__imaged-link" href="">
+                        <span class="form__image form__image--sso"></span>
+                        SSO
+                    </a>
+                    <a class="form__imaged-link" href="">
+                        <span class="form__image form__image--apple"></span>
+                        Apple
+                    </a>
+                    <a class="form__imaged-link" href="">
+                        <span class="form__image form__image--google"></span>
+                        Google
+                    </a>
+                    <a class="form__imaged-link" href="">
+                        <span class="form__image form__image--facebook"></span>
+                        Facebook
+                    </a>
+                </div>
+                <p class="text">
+                    Zoom is protected by reCAPTCHA and their
+                    <a class="link form__link--light" href="">Privacy Policy</a>
+                    and
+                    <a class="link form__link--light" href="">Terms of Service</a>
+                    apply.
+                </p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
